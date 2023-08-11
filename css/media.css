@@ -5,6 +5,8 @@
         padding: 0%;
         margin-bottom: 96px;
         margin-top: 96px;
+        height: auto;
+        width: 100%;
     }
 
     .values {
@@ -26,7 +28,6 @@
     }
 
     .values .list-text {
-        text-align: justify;
         align-self: stretch;
         line-height: 24px;
         letter-spacing: 0.32px;
