@@ -56,4 +56,22 @@
         display: none;
     }
 
+    .people {
+        width: 428px;
+        height: 2232px;
+        flex-shrink: 0;
+        padding: 0;
+    }
+
+    .people .people-item {
+        width: 264px;
+        height: 396px;
+    }
+
+    .people .list {
+        gap: 72px 0;
+        margin-left: 82px;
+        margin-right: 82px;
+    }
+
 }
