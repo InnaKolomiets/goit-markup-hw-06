@@ -1,13 +1,43 @@
-@media(min-width: 320px) and (max-width: 428px) {
-    .action {
-  
-    width: 428px;
-    height: 432px;
-    flex-shrink: 0;
-    margin: 0;
-    
-   
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
     }
+    }
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    }
+@media(min-width: 320px) and (max-width: 428px) {
+    .header .container {
+        margin: 0;
+        height: 70px;
+        width: 100%;
+    }
+
+    .action {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    padding: 0;
+    
+    
+    }
+
+    .action .container {
+        margin: 0;
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+
+    .action .order-service {
+        margin-top: 72px;
+    }
+
     .title {
         font-family: Roboto;
         font-size: 36px;
@@ -18,15 +48,19 @@
         text-transform: capitalize;
         width: 320px;
         max-width: 320px;
+        
 
     }
 
     .container{
-        margin: 16px;
-        padding: 0%;
+        max-width: 428px;
+        padding-left: 16px;
+        padding-right: 16px;
         margin-bottom: 96px;
         margin-top: 96px;
         height: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .values {
