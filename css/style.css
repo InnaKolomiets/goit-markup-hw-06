@@ -1011,3 +1011,7 @@ input::placeholder, textarea::placeholder {
 .form-consent {
     margin-bottom: 24px;
 }
+
+.menu-toggle js-open-menu {
+    display: none;
+}

@@ -1,0 +1,16 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-charm_menu-hamburger {
+  width: 47px;
+  height: 32px;
+  background-position: 0 0;
+}
+.icon-checkmark {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -48px;
+}
+
