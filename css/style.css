@@ -1000,7 +1000,6 @@ input::placeholder, textarea::placeholder {
 .form-input-checkbox:checked ~ .modal-consent .text-consent {
     background-color: var(--ocean-color);
     border: none;
-    fill: var(--cloud-color);
 }
 
 .modal-check-link {
