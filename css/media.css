@@ -120,7 +120,6 @@
         row-gap: 72px;
         flex-wrap: wrap;
         padding-left: 108px;
-        padding-right: 164px;
         
     }
 
@@ -325,10 +324,24 @@
         margin-top: 0;
         margin-bottom: 0;
     }
+
+    .customers-name {
+        padding-top: 96px;
+    }
+
+    .customers-list {
+        padding-bottom: 96px;
+    }
+
+    .values .list {
+        margin: 0;
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
 }
 
 @media screen and (min-width: 428px) and (max-width: 767px) {
-    .header .container, .footer .container, .action, .people {
+    .footer .container, .action, .people {
         max-width:  100%;
     }
     .action .container, .people .container {
@@ -466,8 +479,6 @@
 
         .social-icons-list {
         gap: 54px;
-        padding-top: 48px;
-        padding-bottom: 40px;
     }
 
         .social-link:hover,
@@ -518,17 +529,13 @@
     }
 
     .title {
-        font-family: Roboto;
         font-size: 36px;
-        font-style: normal;
         font-weight: 700;
         line-height: 40px;
         letter-spacing: 0.72px;
         text-transform: capitalize;
         width: 320px;
-        max-width: 320px;
         
-
     }
 
     
@@ -593,6 +600,8 @@
         flex-direction: column;
         flex-shrink: 0;
         padding: 0;
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
 
     .people .list {
