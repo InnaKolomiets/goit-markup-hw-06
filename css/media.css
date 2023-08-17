@@ -338,6 +338,10 @@
         padding-top: 96px;
         padding-bottom: 96px;
     }
+
+    .footer-e-mail {
+        max-width: 100%;
+    }
 }
 
 @media screen and (min-width: 428px) and (max-width: 767px) {
@@ -356,6 +360,14 @@
     .container {
         margin-bottom: 96px;
         margin-top: 96px;
+    }
+
+    .header {
+        justify-content: space-around;
+    }
+
+    .footer-e-mail {
+        width: 428px;
     }
 }
 
@@ -670,8 +682,12 @@
     }
 
     .footer-button-styling {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
         text-align: center;
+        align-items: center;
+
     }
 
     .footer-subscribe {
@@ -692,7 +708,6 @@
     }
 
     .footer-e-mail {
-        width: 100%;
         border-radius: 4px;
         border: 1px solid var(--white, #FFF);
         opacity: 0.3;
