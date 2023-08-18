@@ -357,12 +357,37 @@
         width: 95%;
         height: 99%;
     }
+
+    .mobile-contacts .list {
+        font-size: 28px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .social-icons-list {
+        gap: 35px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
 }
 
 @media screen and (min-width: 392px) and (max-width: 767px) {
     .modal {
         width: 392px;
     }
+    
+    .social-icons-list {
+        gap: 54px;
+        padding-bottom: 40px;
+        padding-top: 48px;
+    }
+
+    .mobile-contacts .list {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
 }
 
 
@@ -515,11 +540,7 @@
         padding: 8px;
     }
 
-        .social-icons-list {
-        gap: 54px;
-        padding-bottom: 40px;
-        padding-top: 48px;
-    }
+        
 
         .social-link:hover,
         .social-link:focus {
