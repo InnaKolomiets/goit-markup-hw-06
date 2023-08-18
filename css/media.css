@@ -496,8 +496,14 @@
         height: 24px;
     }
 
+    .people .social-icons-list {
+        padding: 8px;
+    }
+
         .social-icons-list {
         gap: 54px;
+        padding-bottom: 40px;
+        padding-top: 48px;
     }
 
         .social-link:hover,
